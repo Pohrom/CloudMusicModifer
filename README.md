@@ -2,7 +2,8 @@
 
 ## 发现
 * 使用网易 NEJ 前端框架, 基于 [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef)
-* 可以开启 Chromium 远程调试端口, 用 `/remote-debugging-port=2016`
+* 可以开启 Chromium 远程调试端口, 使用参数 `/remote-debugging-port=2016` 并可通过 Chrome Devtools > Remote Devices 进行 Inspect
+* 发现 `--enable-dev-tools` 参数
 * 签名使用了 Windows Crypto API
 * 使用了 PROV_RSA_SIG 进行签名, 使用 SHA Hash 算法进行摘要
 
